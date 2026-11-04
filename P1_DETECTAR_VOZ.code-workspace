@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "Voz · JAVI",
+      "path": "JAVI-VOICE-DETECTOR/JAVI_DETECTOR"
+    },
+    {
+      "name": "Movimientos · IMU",
+      "path": "IMU_DETECTOR"
+    }
+  ],
+  "settings": {}
+}

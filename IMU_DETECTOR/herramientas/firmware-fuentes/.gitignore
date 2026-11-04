@@ -1,0 +1,7 @@
+create-arduino-library.sh
+*.bin
+*.elf
+*.hex
+*.map
+.DS_Store
+.vscode/

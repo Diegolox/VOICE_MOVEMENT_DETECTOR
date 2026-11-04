@@ -1,0 +1,159 @@
+{
+  "version": 6,
+  "test": {
+    "float32": {
+      "confusion_matrix": [
+        [
+          12,
+          5
+        ],
+        [
+          2,
+          33
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8571428571428571,
+          "recall": 0.7058823529411765,
+          "f1-score": 0.7741935483870968,
+          "support": 17
+        },
+        "1": {
+          "precision": 0.868421052631579,
+          "recall": 0.9428571428571428,
+          "f1-score": 0.9041095890410958,
+          "support": 35
+        },
+        "accuracy": 0.8653846153846154,
+        "macro avg": {
+          "precision": 0.862781954887218,
+          "recall": 0.8243697478991596,
+          "f1-score": 0.8391515687140962,
+          "support": 52
+        },
+        "weighted avg": {
+          "precision": 0.8647339502602661,
+          "recall": 0.8653846153846154,
+          "f1-score": 0.8616370372888269,
+          "support": 52
+        }
+      },
+      "roc_auc": 0.8243697478991596,
+      "loss": 0.36352356235856104,
+      "support": 52,
+      "weighted_average": {
+        "precision": 0.8647339502602661,
+        "recall": 0.8653846153846154,
+        "f1-score": 0.8616370372888269
+      },
+      "subgroup_metrics": {
+        "facetted": null,
+        "per_key": {
+          "class_name": {
+            "per_group": {
+              "javi": {
+                "confusion_matrix": [
+                  [
+                    12,
+                    5
+                  ],
+                  [
+                    0,
+                    0
+                  ]
+                ],
+                "classification_report": {
+                  "0": {
+                    "precision": 1,
+                    "recall": 0.7058823529411765,
+                    "f1-score": 0.8275862068965517,
+                    "support": 17
+                  },
+                  "1": {
+                    "precision": 0,
+                    "recall": 0,
+                    "f1-score": 0,
+                    "support": 0
+                  },
+                  "accuracy": 0.7058823529411765,
+                  "macro avg": {
+                    "precision": 0.5,
+                    "recall": 0.35294117647058826,
+                    "f1-score": 0.41379310344827586,
+                    "support": 17
+                  },
+                  "weighted avg": {
+                    "precision": 1,
+                    "recall": 0.7058823529411765,
+                    "f1-score": 0.8275862068965517,
+                    "support": 17
+                  }
+                },
+                "roc_auc": null,
+                "loss": 0.7441748039037935,
+                "support": 17,
+                "weighted_average": {
+                  "precision": 1,
+                  "recall": 0.7058823529411765,
+                  "f1-score": 0.8275862068965517
+                }
+              },
+              "otros": {
+                "confusion_matrix": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    2,
+                    33
+                  ]
+                ],
+                "classification_report": {
+                  "0": {
+                    "precision": 0,
+                    "recall": 0,
+                    "f1-score": 0,
+                    "support": 0
+                  },
+                  "1": {
+                    "precision": 1,
+                    "recall": 0.9428571428571428,
+                    "f1-score": 0.9705882352941176,
+                    "support": 35
+                  },
+                  "accuracy": 0.9428571428571428,
+                  "macro avg": {
+                    "precision": 0.5,
+                    "recall": 0.4714285714285714,
+                    "f1-score": 0.4852941176470588,
+                    "support": 35
+                  },
+                  "weighted avg": {
+                    "precision": 1,
+                    "recall": 0.9428571428571428,
+                    "f1-score": 0.9705882352941176,
+                    "support": 35
+                  }
+                },
+                "roc_auc": null,
+                "loss": 0.1786358164651624,
+                "support": 35,
+                "weighted_average": {
+                  "precision": 1,
+                  "recall": 0.9428571428571428,
+                  "f1-score": 0.9705882352941176
+                }
+              }
+            }
+          }
+        }
+      },
+      "class_names": [
+        "javi",
+        "otros"
+      ]
+    }
+  }
+}

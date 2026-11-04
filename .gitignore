@@ -1,0 +1,5 @@
+# Archivos locales regenerables
+**/.pio/
+**/.vscode/
+**/__pycache__/
+*.pyc

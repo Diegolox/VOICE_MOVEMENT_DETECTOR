@@ -1,0 +1,80 @@
+{
+  "title": "De la adquisición a la aplicación en Arduino",
+  "description": "Se recogen y etiquetan datos, se entrena en Edge Impulse, se exporta la biblioteca Arduino y se compila con PlatformIO para ejecutar el modelo en la placa.",
+  "width": 960,
+  "height": 210,
+  "nodes": [
+    {
+      "id": "r0c0",
+      "label": [
+        "Adquisición",
+        "Sensores",
+        "Datos etiquetados"
+      ],
+      "kind": "data",
+      "x": 30,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r0c1",
+      "label": [
+        "Edge Impulse",
+        "Características",
+        "Entrenar y probar"
+      ],
+      "kind": "lavender",
+      "x": 270,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r0c2",
+      "label": [
+        "Exportación",
+        "Librería Arduino",
+        "Modelo + SDK"
+      ],
+      "kind": "folder",
+      "x": 510,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r0c3",
+      "label": [
+        "PlatformIO",
+        "Compilar y cargar",
+        "Inferencia local"
+      ],
+      "kind": "config",
+      "x": 750,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    }
+  ],
+  "edges": [
+    {
+      "from": "r0c0",
+      "to": "r0c1",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r0c1",
+      "to": "r0c2",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r0c2",
+      "to": "r0c3",
+      "from_side": "right",
+      "to_side": "left"
+    }
+  ]
+}

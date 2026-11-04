@@ -1,0 +1,154 @@
+{
+  "title": "Voz y movimiento: dos aplicaciones de inferencia local",
+  "description": "La voz se captura por PDM en ventanas de un segundo, se procesa con MFCC y alterna el LED. La IMU captura nueve ejes durante dos segundos, extrae características espectrales y muestra siete puntuaciones por USB.",
+  "width": 960,
+  "height": 440,
+  "nodes": [
+    {
+      "id": "r0c0",
+      "label": [
+        "Micrófono PDM",
+        "Audio mono"
+      ],
+      "kind": "code",
+      "x": 30,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r0c1",
+      "label": [
+        "Captura de voz",
+        "16 kHz",
+        "16 000 muestras",
+        "1 segundo"
+      ],
+      "kind": "data",
+      "x": 270,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r0c2",
+      "label": [
+        "MFCC + red",
+        "650 características",
+        "javi / otros"
+      ],
+      "kind": "code",
+      "x": 510,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r0c3",
+      "label": [
+        "Salida de voz",
+        "javi > 90 %",
+        "Alternar LED",
+        "USB serie"
+      ],
+      "kind": "code",
+      "x": 750,
+      "y": 30,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r1c0",
+      "label": [
+        "IMU LSM9DS1",
+        "Acelerómetro",
+        "Giroscopio",
+        "Magnetómetro"
+      ],
+      "kind": "code",
+      "x": 30,
+      "y": 260,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r1c1",
+      "label": [
+        "Captura IMU",
+        "100 Hz · 9 ejes",
+        "200 muestras",
+        "2 segundos"
+      ],
+      "kind": "data",
+      "x": 270,
+      "y": 260,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r1c2",
+      "label": [
+        "Espectro + red",
+        "117 características",
+        "7 clases"
+      ],
+      "kind": "code",
+      "x": 510,
+      "y": 260,
+      "width": 180,
+      "height": 150
+    },
+    {
+      "id": "r1c3",
+      "label": [
+        "Salida IMU",
+        "Puntuaciones",
+        "por clase",
+        "USB serie"
+      ],
+      "kind": "code",
+      "x": 750,
+      "y": 260,
+      "width": 180,
+      "height": 150
+    }
+  ],
+  "edges": [
+    {
+      "from": "r0c0",
+      "to": "r0c1",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r0c1",
+      "to": "r0c2",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r0c2",
+      "to": "r0c3",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r1c0",
+      "to": "r1c1",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r1c1",
+      "to": "r1c2",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "from": "r1c2",
+      "to": "r1c3",
+      "from_side": "right",
+      "to_side": "left"
+    }
+  ]
+}

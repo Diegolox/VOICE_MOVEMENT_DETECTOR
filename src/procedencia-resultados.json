@@ -1,0 +1,138 @@
+{
+  "descripcion": "Recortes exactos sin reescalado, retoque ni edición generativa. Coordenadas left,top,right,bottom; borde derecho e inferior excluidos.",
+  "capturas": [
+    {
+      "archivo": "imu/imu-test-metricas-matriz-float32.png",
+      "original": "imu/originales/imu-test-metricas-matriz-float32-original.png",
+      "captura_origen": "codex-clipboard-fe0ef622-6c58-4d60-a4a6-6961878bbf41.png",
+      "recorte_px": [
+        1490,
+        110,
+        2483,
+        1200
+      ],
+      "sha256_original": "eadaab26e2703dc6732af7287e400e7b0f0d256b6b69eb0b5addfa851e93bc64",
+      "sha256_recorte": "b0892866eb3f85d05b4593458781ed30848e496895f26a5016d3c4e25fcd0e53"
+    },
+    {
+      "archivo": "imu/imu-test-explorador-float32.png",
+      "original": "imu/originales/imu-test-explorador-float32-original.png",
+      "captura_origen": "codex-clipboard-30502039-6717-45b4-bdff-204350c54acc.png",
+      "recorte_px": [
+        287,
+        50,
+        1278,
+        663
+      ],
+      "sha256_original": "e61612d91393cfc7bc95b032425d93539e6cbf9b092319b436657ebc46976f98",
+      "sha256_recorte": "2528f13609152ff0bc25f033a3879c9828ca0e30fe6d0f3671f503f079d0ecb4"
+    },
+    {
+      "archivo": "imu/imu-validacion-metricas-matriz-int8.png",
+      "original": "imu/originales/imu-validacion-metricas-matriz-int8-original.png",
+      "captura_origen": "codex-clipboard-3f68066b-109a-4650-b2e6-9073b976f12c.png",
+      "recorte_px": [
+        45,
+        0,
+        1038,
+        1111
+      ],
+      "sha256_original": "3e8958e533adfff2aed95de4ad08d04bb97cd10eef1ccef4b324921ebaad6c0f",
+      "sha256_recorte": "f78b00be74d4646e7a169f1603fa1b60b65ab0b8a2df8ae77122be3dc1ed4e79"
+    },
+    {
+      "archivo": "imu/imu-validacion-explorador-rendimiento-int8.png",
+      "original": "imu/originales/imu-validacion-explorador-rendimiento-int8-original.png",
+      "captura_origen": "codex-clipboard-00de3224-ae09-4f8a-9fdd-fe7acd56452f.png",
+      "recorte_px": [
+        33,
+        4,
+        1027,
+        1168
+      ],
+      "sha256_original": "d2c1ee25a5bb2138e9600015dc8db0c114c611ac2762fa3e92f07d072ae44eb8",
+      "sha256_recorte": "0da11ca4788b3376c06a05637b5710db6d515b0ffb7e9be0c1cd7664f7db76a8"
+    },
+    {
+      "archivo": "voz/javi-validacion-metricas-matriz-int8.png",
+      "original": "voz/originales/javi-validacion-metricas-matriz-int8-original.png",
+      "captura_origen": "codex-clipboard-e8c02db9-624f-4aeb-abff-fc1c47038c28.png",
+      "recorte_px": [
+        32,
+        1,
+        1025,
+        903
+      ],
+      "sha256_original": "e4f31be433181e6823f69885b84e02449c19ecf9fd20b5133d446cf1cba05eeb",
+      "sha256_recorte": "565d2e7074bf9a6e7f54a9aefc345d1671a79b8c1a6d91bbcb9fd38e08082da4"
+    },
+    {
+      "archivo": "voz/javi-validacion-explorador-rendimiento-int8.png",
+      "original": "voz/originales/javi-validacion-explorador-rendimiento-int8-original.png",
+      "captura_origen": "codex-clipboard-9671b8d1-8b97-49d8-803b-8bcb3df746ea.png",
+      "recorte_px": [
+        28,
+        56,
+        1020,
+        877
+      ],
+      "sha256_original": "1aa905a3d602b9a149cb754fc572fffacdb2c9d858e8ecbacee39ec55b92ec87",
+      "sha256_recorte": "0b3125d2730e1ffca8f7204f55ab354c8711f58663645f435607cebd15fbf2c1"
+    },
+    {
+      "archivo": "voz/javi-test-metricas-matriz-float32.png",
+      "original": "voz/originales/javi-test-metricas-matriz-float32-original.png",
+      "captura_origen": "codex-clipboard-faca2b4e-a90f-4c6b-8b77-4c81d0aaa15b.png",
+      "recorte_px": [
+        3,
+        6,
+        995,
+        900
+      ],
+      "sha256_original": "78f70860707136d1639097102c94cb71e202391e408da0612f20732dfa77d97a",
+      "sha256_recorte": "4968f49534d23754598b8f55e69dee38dc001ab5fca11b71492ef8d321aca426"
+    },
+    {
+      "archivo": "voz/javi-test-explorador-float32.png",
+      "original": "voz/originales/javi-test-explorador-float32-original.png",
+      "captura_origen": "codex-clipboard-cf4f3a5c-8dfe-4132-ae52-361b7d930ca0.png",
+      "recorte_px": [
+        85,
+        341,
+        1076,
+        954
+      ],
+      "sha256_original": "a1ca0b4bde11a023447ca1958da6564b13d65b49e552c26447907f2ffc4d8454",
+      "sha256_recorte": "660b4ec1d5ffcba2f2d3886b82f77bb1ac5c3540e51155f0e89ce1ab162ec415"
+    }
+  ],
+  "informes": [
+    {
+      "archivo": "imu/imu-evaluacion-completa.json",
+      "sha256": "b5f30325c3146852bcbbba4dde450a0400a9d21bd591a2719b0c14a57b7bbb81",
+      "secciones": [
+        "version",
+        "validation",
+        "test"
+      ],
+      "descargas_redundantes_retiradas": [
+        "IMU_DETECTOR/ei-imu-test-classifier-model-evaluation-metrics-json-file-model.4 (1).json",
+        "IMU_DETECTOR/ei-imu-test-classifier-model-evaluation-metrics-json-file-model.4.json"
+      ]
+    },
+    {
+      "archivo": "voz/javi-evaluacion-completa.json",
+      "sha256": "e96ad340b0708fb66d16f67dd3b6974f3309a588487b6cd382468e9f565ff118",
+      "secciones": [
+        "version",
+        "validation",
+        "test"
+      ],
+      "descargas_redundantes_retiradas": [
+        "JAVI-VOICE-DETECTOR/ei-javi-classifier-model-evaluation-metrics-json-file-model.7 (1).json",
+        "JAVI-VOICE-DETECTOR/ei-javi-classifier-model-evaluation-metrics-json-file-model.7.json"
+      ]
+    }
+  ],
+  "organizacion": "Resultados agrupados por proyecto; se han retirado las descargas JSON redundantes tras comprobar igualdad de contenido con los informes completos."
+}
